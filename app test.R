@@ -1,5 +1,5 @@
 library(shiny)
-ui<-navbarPage("Model Developement by Sampath and Hruday",
+ui<-navbarPage("Model Developement by Sampath",
                tabPanel("Train data Import",
                         sidebarLayout(sidebarPanel( fileInput("file1","Upload your CSV",multiple = FALSE),
                                                     tags$hr(),
